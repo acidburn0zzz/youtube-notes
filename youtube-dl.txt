@@ -1,0 +1,28 @@
+                   _         _                    _ _ 
+ _   _  ___  _   _| |_ _   _| |__   ___        __| | |
+| | | |/ _ \| | | | __| | | | '_ \ / _ \_____ / _` | |
+| |_| | (_) | |_| | |_| |_| | |_) |  __/_____| (_| | |
+ \__, |\___/ \__,_|\__|\__,_|_.__/ \___|      \__,_|_|
+ |___/                                                
+
+------------------------------------------------------
+Web: https://rg3.github.io/youtube-dl/
+Doc: https://github.com/rg3/youtube-dl/blob/master/README.md#readme
+-------------------------------------------------------
+
+Permet de telecharger une video Youtube, une chaine, ou une playlist ; exemples:
+
+	une video: youtube-dl https://www.youtube.com/watch?v=SkVqJ1SGeL0
+	une chaine: youtube-dl https://www.youtube.com/user/BlenderFoundation
+	une playlist: youtube-dl https://www.youtube.com/watch?v=spKJ2jbnVI8&list=PLa1F2ddGya__l2Tk4zzq8c6CNGPCjQaS4
+
+install: 
+	$ sudo pip install youtube-dl 
+
+Afficher les formats disponibles:
+	$ youtube-dl -F https://www.youtube.com/watch?v=SkVqJ1SGeL0
+	(choisi un format)
+
+Telecharger le format choisi:
+	$ youtube-dl -f numero-format-choisi https://www.youtube.com/watch?v=SkVqJ1SGeL0
+
