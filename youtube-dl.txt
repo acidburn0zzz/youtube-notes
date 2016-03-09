@@ -5,6 +5,7 @@
  \__, |\___/ \__,_|\__|\__,_|_.__/ \___|      \__,_|_|
  |___/                                                
 
+Video: https://www.youtube.com/watch?v=U425nnHYjiI
 ------------------------------------------------------
 Web: https://rg3.github.io/youtube-dl/
 Doc: https://github.com/rg3/youtube-dl/blob/master/README.md#readme
