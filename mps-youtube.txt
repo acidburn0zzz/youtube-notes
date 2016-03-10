@@ -1,0 +1,24 @@
+mps-youtube
+	https://github.com/mps-youtube/mps-youtube
+------------------------------------------
+
+- lecteur de musique via Youtube
+- permet d'ecouter sans afficher la video
+- possibilite de telecharger la musique
+
+------------------------------------------
+
+Installation 
+(sous ubuntu / debian)
+
+	$ sudo apt-get install python3-pip
+	$ sudo pip3 install mps-youtube
+
+Necessite
+
+	lecteur video/audio mplayer ou mpv
+	sudo apt-get install mpv
+
+Lancer l'appli
+
+	$ mpsyt
