@@ -1,5 +1,5 @@
-mps-youtube
-	https://github.com/mps-youtube/mps-youtube
+mps-youtube: https://github.com/mps-youtube/mps-youtube
+video: https://www.youtube.com/watch?v=mINLd7mgfHo
 ------------------------------------------
 
 - lecteur de musique via Youtube
