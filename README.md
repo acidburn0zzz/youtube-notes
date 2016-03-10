@@ -1,2 +1,2 @@
-# Notes pour Youtube
-https://www.youtube.com/channel/UCeVYSE5oIJp5tPCIZt54fLg
+# Notes pour les screencasts Youtube
+Lien: https://www.youtube.com/channel/UCeVYSE5oIJp5tPCIZt54fLg
