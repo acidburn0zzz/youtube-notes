@@ -1,13 +1,14 @@
 ----------------
 Newsbeuter + MPV
 ----------------
+video: https://youtu.be/qWofRtEK_ZQ
 
 Installation:
 	$ sudo apt-get install newsbeuter mpv
 
 Newsbeuter - fichiers de configuration
 
-	- Urls RSS: ~/.newsbeuter/urls (ou ~/.config/newsbeuter)
+	- Urls RSS: ~/.newsbeuter/urls (ou ~/.config/newsbeuter/urls )
 	- Config (macros, raccourcis clavier, etc): ~/.newsbeuter/config
 
 Flux RSS sous Youtube - syntaxe:
