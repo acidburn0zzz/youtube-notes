@@ -1,0 +1,33 @@
+----------------
+Newsbeuter + MPV
+----------------
+
+Installation:
+	$ sudo apt-get install newsbeuter mpv
+
+Newsbeuter - fichiers de configuration
+
+	- Urls RSS: ~/.newsbeuter/urls (ou ~/.config/newsbeuter)
+	- Config (macros, raccourcis clavier, etc): ~/.newsbeuter/config
+
+Flux RSS sous Youtube - syntaxe:
+
+	https://www.youtube.com/feeds/videos.xml?channel_id=CHANNELID
+	https://www.youtube.com/feeds/videos.xml?user=USERNAME
+
+	# remplacer CHANNELID par l'identifiant de la chaine,
+	# ou USERNAME par le nom d'utilisateur de la chaine.
+
+Raccourci pour lancer une macro sous newsbeuter: , 
+	exemple: pour lancer la macro m tapez: ,m 
+
+Syntaxe de la macro sous newsbeuter (a entrer dans ~/.newsbeuter/config )
+
+	macro m set browser "mpv %u"; open-in-browser ; set browser "iceweasel %u"
+
+Pour utiliser la macro
+
+	- placez vous sous newsbeuter,
+	- selectionnez une video dans votre liste rss
+	- tappez ,m --> mpv se lance et lis la video
+
