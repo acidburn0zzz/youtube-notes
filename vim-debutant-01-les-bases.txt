@@ -1,0 +1,142 @@
+       _           
+__   _(_)_ __ ___  
+\ \ / / | '_ ` _ \ 
+ \ V /| | | | | | |
+  \_/ |_|_| |_| |_|
+	Les bases
+
+Install sous debian / ubuntu / mint:
+	sudo aptitude install vim
+
+	ou via votre gestionnaire de paquets
+	vim est disponible sous toutes distribs.
+
+Config:
+	~/.vimrc
+	~/.vim/
+
+-------- Aide / Cheat sheets {{{
+
+	sous vim: tappez :help
+	terminal: vimtutor (installe avec vim)
+	https://www.reddit.com/r/vim
+	https://duckduckgo.com/?q=vim+cheat+sheet
+	https://fr.wikipedia.org/wiki/Vim
+
+}}}
+-------- Mode Visuel {{{
+
+
+	- permet de se deplacer dans le fichier
+	- selectionner
+	- copier coller
+	- tappez escape pour revenir au mode visuel si vous vous trouvez dans un autre mode (voir ci dessous)
+
+}}}
+-------- Mode Edition {{{
+
+	Les raccourcis suivant vous permettent d'entrer dans le mode edition,
+	chaque raccourci demarre dans une position definie en rapport a votre curseur.
+
+	i insertion, directement a la position du curseur
+	I insertion, se positionne au debut de la ligne
+	a ajoute - se deplace d'un caractere vers la droite
+	o ajoute une ligne sous la ligne courante
+	O ajoute une ligne au dessus de la ligne courante
+
+}}}
+-------- Ligne de commande {{{
+
+	:w
+	sauve
+
+	:w name.txt
+	sauve sous un autre nom de fichier
+
+	:q
+	quitte (ne marche pas si le fichier a ete modifie)
+
+	:wq
+	enregistre puis quitte (combinaison de w et q)
+
+	:q!
+	quitte en ignorant les modifications (si presentes)
+
+}}}
+-------- Se deplacer {{{
+
+	hjkl
+	touches directionnelles
+
+	0 $
+	debut de ligne / fin de ligne
+
+	gg G
+	debut de fichier / fin de fichier
+
+	w
+	se deplace d'un mot (word) vers la droite
+
+	5w
+	se deplace de 5 mots vers la droite
+
+	*
+	cherche l'occurence suivante du mot place sur le curseur
+	
+}}}
+-------- Effacer {{{
+
+	d 
+	efface un caractere (tappez hjkl ou le pave directionnel pour choisir la direction)
+
+	dd
+	efface la ligne
+
+	4d direction
+	efface 4 caracteres
+
+	d5j
+	efface 5 lignes vers le bas
+
+	ggdG
+	efface tout le contenu du fichier
+	(se deplace au debut du fichier, debute l'effacage jusqu'a la fin du fichier)
+	combinaison de gg d et G.
+
+
+}}}
+-------- Selection + Copier coller {{{
+
+	ctrl+shift+c ctrl+shift+v
+	mode copier coller standard du terminal (selection texte a la souris requise)
+
+	v
+	debute la selection (se deplacer dans le fichier pour augmenter la zone)
+
+	V
+	selectionne la ligne (se deplacer pour augmenter la zone de selection)
+
+	ctrl+v
+	selection par bloc (faux ami windows) 
+
+	y
+	copie la selection
+
+	yy
+	copie la ligne courante (ne necessite pas de selection au prealable)
+
+	dd
+	efface la ligne courante
+
+	p
+	colle
+
+	ggVG
+	selectionne tout le fichier
+
+}}}
+
+Undo
+	u
+Redo
+	ctrl+r
