@@ -1,3 +1,5 @@
+![gaming](images/2016-03-gaming-small.png)
+
 # PICMI
 
 Clone open source de Picross.
