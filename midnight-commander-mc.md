@@ -4,6 +4,8 @@
 
 Couteau suisse du terminal, souvent installe de base sur les servers webs.
 
+Video: https://youtu.be/kW8Eaolz2uw
+
 ### Gestionnaire de fichiers
 
 * lance les fichiers connus avec **entree**
@@ -44,9 +46,9 @@ et utilisation des resultats:
 
 * ctrl+x d
 
-Raccourcis utiles / notes
+### Raccourcis utiles / notes
 
-* alt+o
+* alt+o : ouvrir le repertoire selectionne dans la fenetre opposee
 * support souris
 
 ---
