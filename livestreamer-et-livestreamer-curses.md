@@ -3,6 +3,8 @@
 
 # Livestreamer
 
+Video: https://youtu.be/Lual35C6Xq0
+
 Permet de streamer divers sites via votre lecteur video tels que Twitch, Crunchyroll, Dailymotion, Livestream, UStream, YouTube Live pour ne citer que les plus connus. 
 
 - Site officiel: https://github.com/chrippa/livestreamer
